@@ -5,7 +5,7 @@ function adicionar() {
     li.innerText = tarefa;
 
     li.onclick = function() {
-        li.remove();
+        li.style.textDecoration = "line-through";
     };
 
     document.getElementById("lista").appendChild(li);
